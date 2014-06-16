@@ -10,7 +10,7 @@ class Number : public QObject
     Q_OBJECT
 
 public:
-    Number (QString);
+    Number (QString input);
     Number (long long);
     Number (double);
     //~Number ();
