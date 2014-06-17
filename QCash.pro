@@ -14,7 +14,6 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    Number.cpp \
     exception.cpp
 
 HEADERS  += mainwindow.h \
