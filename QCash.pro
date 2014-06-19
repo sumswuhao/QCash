@@ -14,13 +14,10 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    exception.cpp \
-    journaleditor.cpp
+    exception.cpp
 
 HEADERS  += mainwindow.h \
     Number.h \
-    exception.h \
-    journaleditor.h
+    exception.h
 
-FORMS    += mainwindow.ui \
-    journaleditor.ui
+FORMS    += mainwindow.ui
