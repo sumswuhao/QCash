@@ -27,8 +27,8 @@
     <property name="title">
      <string>文件</string>
     </property>
-    <addaction name="action"/>
-    <addaction name="action_2"/>
+    <addaction name="openFileAction"/>
+    <addaction name="closeFileAction"/>
    </widget>
    <widget class="QMenu" name="menu_2">
     <property name="title">
@@ -44,14 +44,14 @@
       <string>输入账目</string>
      </property>
      <addaction name="action_5"/>
-     <addaction name="action_4"/>
+     <addaction name="journalViewAction"/>
     </widget>
     <widget class="QMenu" name="menu_5">
      <property name="title">
       <string>财务报表</string>
      </property>
-     <addaction name="action_7"/>
-     <addaction name="action_8"/>
+     <addaction name="balanceSheetViewAction"/>
+     <addaction name="incomeStatementViewAction"/>
      <addaction name="action_9"/>
     </widget>
     <addaction name="menu_4"/>
@@ -70,17 +70,23 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="action">
+  <action name="openFileAction">
    <property name="text">
     <string>打开文件</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
   </action>
-  <action name="action_2">
+  <action name="closeFileAction">
    <property name="text">
     <string>关闭文件</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
   </action>
-  <action name="action_4">
+  <action name="journalViewAction">
    <property name="checkable">
     <bool>true</bool>
    </property>
@@ -102,7 +108,7 @@
     <string>按资产类别进行录入</string>
    </property>
   </action>
-  <action name="action_7">
+  <action name="balanceSheetViewAction">
    <property name="checkable">
     <bool>true</bool>
    </property>
@@ -110,7 +116,7 @@
     <string>资产负债表</string>
    </property>
   </action>
-  <action name="action_8">
+  <action name="incomeStatementViewAction">
    <property name="checkable">
     <bool>true</bool>
    </property>

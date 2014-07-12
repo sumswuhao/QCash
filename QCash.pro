@@ -21,3 +21,6 @@ HEADERS  += mainwindow.h \
     exception.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    QCash.qrc
