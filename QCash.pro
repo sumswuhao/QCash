@@ -12,13 +12,18 @@ TARGET = QCash
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    AccountEditor.cpp \
+    AccountEditorTitle.cpp
 
-HEADERS  += mainwindow.h \
-    Number.h
+HEADERS  += \
+    Number.h \
+    AccountEditor.h \
+    DefaultStyle.h \
+    AccountEditorTitle.h
 
-FORMS    += mainwindow.ui
+FORMS    +=
 
 RESOURCES += \
     QCash.qrc
+
